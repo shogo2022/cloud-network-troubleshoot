@@ -19,7 +19,7 @@ You will be given a guide once you setup the resources, most of the time (if not
 
 > **Warning #1:** Each scenario will procure a few resources on your own cloud environment. Please do not deploy these scenarios in your production environment.
 
-> **Warning #2:** Each scenario will be provided with terraform files. You can delete those resources procured during the setup with the command `terraform destroy`, however those resourcces you add by yourself along the course will *NOT* be deleted. Please *DO* remove those resources you added by yourself prior to `terraform destroy`
+> **Warning #2:** Each scenario will be provided with terraform files. You can delete those resources procured during the setup with the command `terraform destroy`, however those resourcces you add by yourself along the course will *NOT* be deleted. Please *DO* remove those resources you added by yourself prior to `terraform destroy`. It is always recommended and you should check if there is any resources left behind on web management console of aws.
 
 ## System requirement
 
