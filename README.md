@@ -32,20 +32,5 @@ You will be given a guide once you setup the resources, most of the time (if not
 ```
 $ git clone git@github.com:shogo2022/cloud-network-troubleshoot.git ./cloud-network-troubleshoot
 $ cd cloud-network-troubleshoot
-
-## Dockerイメージの使い方
-
-[![Try in PWD](https://github.com/play-with-docker/stacks/raw/cff22438cb4195ace27f9b15784bbb497047afa7/assets/images/button.png)](http://play-with-docker.com?stack=https://raw.githubusercontent.com/RhinoSecurityLabs/cloudgoat/master/docker_stack.yml)
-
-### オプション 1: デフォルトのエントリーポイントで実行
-```console
-$ docker run -it #TODO
-```
-
-### オプション 2: AWS configとクレデンシャルで実行
-
-> 注意: このコマンドを実行するとローカルのAWS設定ファイルをDockerコンテナにマウントします。これはコンテナへアクセスできるユーザー全てがあなたがホストしているコンピュータ上のAWSクレデンシャルにアクセスできることを意味しています。
-
-```console
-$ docker run -it -v ~/.aws:/root/.aws/ #TODO
-```
+$ ls -l scenarios
+$ cd scenarios/00-tutorial
