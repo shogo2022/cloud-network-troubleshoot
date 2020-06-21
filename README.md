@@ -1,6 +1,6 @@
 # cloud-network-troubleshoot
 
-_Created by network engineer for network engineer who finds cloud network different from enterprise network_
+_Created by network engineer for network engineer who finds cloud network different from enterprise network_  
 -クラウド環境のネットワークが苦手なネットワークエンジニアがクラウドが得意になる問題集-
 
 # クイックリファレンス

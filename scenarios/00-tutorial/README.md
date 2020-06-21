@@ -28,6 +28,16 @@ AWSアカウントの用意の仕方からterraformのインストール方法�
 
 ![Scenario Route(s)](#TODO - add chart)
 
+## Guide
+
+1. Follow below screenshot to create an IAM user.
+
+>![awsiam01](./asset/00-awsiam01.jpg)
+>![awsiam02](./asset/00-awsiam02.jpg)
+>![awsiam03](./asset/00-awsiam03.jpg)
+
+2. 
+
 
 ## Comment
 
