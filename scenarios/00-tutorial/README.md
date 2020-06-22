@@ -16,7 +16,6 @@ $ cd scenarios/00-tutorial
 
 * 1 VPC with:
   * EC2 x 1
-  * S3 x 1
 
 ## Summary
 
