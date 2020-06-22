@@ -26,7 +26,7 @@ AWSアカウントの用意の仕方からterraformのインストール方法�
 
 ## Guide chart
 
-![Scenario Route(s)](#TODO - add chart)
+![guide chart](./asset/00-route.jpg)
 
 ## Guide
 
@@ -41,7 +41,7 @@ Open the console URL in your browser, and key in your credential. You should be 
 
 >![awsiam04](./asset/00-awsiam04.jpg)
 
-2. Configure AWS credential in your machine. You should follow [the official document](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html) to install aws cli on your machine. Once installed, you need to configure the credential as below.
+2. Setup AWS credential in your machine. You should follow [the official document](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html) to install aws cli on your machine. Once installed, you need to configure the credential as below.
 ```
 $ aws configure
 AWS Access Key ID [None]: AKIA********
@@ -88,7 +88,7 @@ $ terraform plan
 (this will list all the resources to be deployed)
 Refreshing Terraform state in-memory prior to plan...
 ...
-Plan: 9 to add, 0 to change, 0 to destroy.
+Plan: 10 to add, 0 to change, 0 to destroy.
 ```
 
 Now, it's time to deploy these resources on the cloud. Planned resources are shown again, and you need to confirm by typing "yes" once prompted.
@@ -132,6 +132,7 @@ And it is always a agood idea to navigate to web management console to confirm i
 
 ## Comment
 
-#TODO
+Conguratulations! You just entered a realm of Infrastructure as a Code(IaaC) :)  
+おめでとうございます！インフラストラクチャーアズアコードの世界に一歩足を踏み入れました :)  
 
 この方法のチートシートは[こちら](./cheat_sheet.md).
