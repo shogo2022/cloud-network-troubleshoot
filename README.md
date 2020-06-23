@@ -24,8 +24,12 @@ You will be given a guide once you setup the resources, most of the time (if not
 ## System requirement
 
 * Python3.6以上が必要です。
-* Terraform 0.12 [インストールされ、$PATHにある](https://learn.hashicorp.com/terraform/getting-started/install.html)必要があります。
-* The AWS CLI[がインストールされ、$PATHにある](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)ことと、リソースの作成と削除権限を持ったAWSアカウントが必要です。
+
+* Terraform 0.12が[インストールされ、$PATHにある](https://learn.hashicorp.com/terraform/getting-started/install.html)必要があります。
+* The AWS CLIが[インストールされ、$PATHにある](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)ことと、リソースの作成と削除権限を持ったAWSアカウントが必要です。
+
+_These requirements will be explained later in the tutorial_
+_これらの環境はチュートリアルで詳しく説明されます_
 
 ## クイックスタート
 
