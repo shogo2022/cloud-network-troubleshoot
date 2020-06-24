@@ -22,14 +22,13 @@ You will be given a guide once you setup the resources, most of the time (if not
 > **Warning #2:** Each scenario will be provided with terraform files. You can delete those resources procured during the setup with the command `terraform destroy`, however those resourcces you add by yourself along the course will *NOT* be deleted. Please *DO* remove those resources you added by yourself prior to `terraform destroy`. It is always recommended and you should check if there is any resources left behind on web management console of aws.
 
 ## System requirement
+_These requirements will be explained later in the tutorial_  
+_これらの環境はチュートリアルで詳しく説明されます_
 
 * Python3.6以上が必要です。
 
 * Terraform 0.12が[インストールされ、$PATHにある](https://learn.hashicorp.com/terraform/getting-started/install.html)必要があります。
 * The AWS CLIが[インストールされ、$PATHにある](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)ことと、リソースの作成と削除権限を持ったAWSアカウントが必要です。
-
-_These requirements will be explained later in the tutorial_
-_これらの環境はチュートリアルで詳しく説明されます_
 
 ## クイックスタート
 
