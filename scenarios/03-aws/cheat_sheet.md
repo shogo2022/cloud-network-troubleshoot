@@ -17,5 +17,5 @@ It's just like a routing  table in any network devices, and not having a default
 3. Now, let's add a route to the internet. I have deployed a internet gatewaay which act as an internet perimeter between your VPC and the outer world. Select "Edit route" in route table, and follow the image below:
 ![answer](./asset/03-guide04.jpg)
 
-4. Now shou should be able to browse the web page.
+4. Now you should be able to browse the web page.
 
