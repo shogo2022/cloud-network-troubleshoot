@@ -1,0 +1,1 @@
+DB_IPADDRESS = "aws_instance.handsonlab_db.private_ip"
