@@ -1,4 +1,4 @@
-# Scenario: Web server is not working! No. 5 - ウェブサーバが動かない。その5
+# Scenario: Connection to DB server lost! No. 1 - DBサーバへの接続が切れた。その1
 
 **Difficulty:** Easy - 簡単
 
