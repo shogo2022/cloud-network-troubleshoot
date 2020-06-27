@@ -1,7 +1,7 @@
 # cloud-network-troubleshoot
 
-_Created by network engineer for network engineer who finds cloud network different from enterprise network_  
--クラウド環境のネットワークが苦手なネットワークエンジニアがクラウドが得意になる問題集-
+_Created by network engineer for network engineer who endevours cloud deployment for the first time - through hands on experience._  
+-クラウド環境のネットワークが苦手なネットワークエンジニアがクラウドが得意になるハンズオン問題集-
 
 # クイックリファレンス
 
@@ -37,3 +37,14 @@ $ git clone git@github.com:shogo2022/cloud-network-troubleshoot.git ./cloud-netw
 $ cd cloud-network-troubleshoot
 $ ls -l scenarios
 $ cd scenarios/00-tutorial
+```
+
+## Avaialble Scenarios 
+
+- five scenarios(AWS): only one public EC2 instance servince web service, not accessible from the internet.
+
+- 2 scenarios(AWS): one EC2 instance serving frontend web, and another servince backend DB. No internal connectivity.
+
+- x scenarios(GCP): only one public compute instance serving web service, not accessible from the internet.
+
+- x scenarios(GCP): one compute instance serving frontend web, and another servince backend DB. No internal connectivity.
