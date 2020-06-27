@@ -25,13 +25,13 @@ $ terraform destroy
 
 ## Summary
 
-You are building a two tier web application. Frontend is running web server and application, and some part it retrieves data from backend DB server. As you are a Linux expert, you deployed both frontend(web) and backend(db) without any problem. However the frontend cannot collect the data from backend server. Your goal is to change a configuration in AWS and make it work. Once yoou completed, you will see an image instead of message saying "DB connection lost".
+You are building a two tier web application. Frontend is running web server and application, and some part it retrieves data from backend DB server. As you are a Linux expert, you deployed both frontend(web) and backend(db) without any problem. However the frontend cannot collect the data from backend server. Your goal is to change a configuration in AWS and make it work. Once you completed, you will see a random image.
 
-あなたはフロントエンドとバアックエンドで構成されるWEBアプリを構築しています。Linuxマスターであるあなたはフロントエンドとバックエンドをものの5分で構築してしまいました。しかし、WEBサイトはうまく動いていないようです。AWSの設定をどうにか変更してWEBサイトを正常化させましょう。うまくいけば、"DB connection lost"の代わりに画像が表示されます。
+あなたはフロントエンドとバアックエンドで構成されるWEBアプリを構築しています。Linuxマスターであるあなたはフロントエンドとバックエンドをものの5分で構築してしまいました。しかし、WEBサイトはうまく動いていないようです。AWSの設定をどうにか変更してWEBサイトを正常化させましょう。うまくいけば、ランダムで画像が表示されます。
 
 ## Guide chart
 
-![guide chart](./asset/04-route.jpg)
+![guide chart](./asset/05-route.jpg)
 
 ## Guide
 
@@ -39,7 +39,7 @@ You are building a two tier web application. Frontend is running web server and 
 
 2. Check if web site is reachable. And confirm it is reachable.
 
-3. Click the button, and check if it says "DB cconnection lost".
+3. Click the button, and check if it doen't show you an image.
 
 4. Login to your aws management console, and check what is not configured correctly.
 
