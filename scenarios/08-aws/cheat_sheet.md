@@ -13,9 +13,9 @@ Seeing this, you can see what instances are deployed what resources are deployed
 
 In order to communicate between two separate VPCs, you have a few options:
 
-VPC peering ... This is the easiest. Connect two AWS VPCs. Obviously it can be used only if both sides are using AWS.
-VPN connection ... This is the same as old days IPsec connection. It has more flexibility and isolation, but it requires more configuration. It can connect any network as long as it can be connected over IPsec.
-Transit Gateway ... This can be used for multipoint connectionn, while above connection type is used only for one to one connection.
+* VPC peering ... This is the easiest. Connect two AWS VPCs. Obviously it can be used only if both sides are using AWS.
+* VPN connection ... This is the same as old days IPsec connection. It has more flexibility and isolation, but it requires more configuration. It can connect any network as long as it can be connected over IPsec.
+* Transit Gateway ... This can be used for multipoint connectionn, while above connection type is used only for one to one connection.
 
 In this example, I used VPC peering. To setup VPC peering, you have three steps:
 >1. Create a VPC peering in either side of VPC
