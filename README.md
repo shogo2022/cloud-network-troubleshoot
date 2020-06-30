@@ -41,9 +41,9 @@ $ cd scenarios/00-tutorial
 
 ## Avaialble Scenarios 
 
-- five scenarios(AWS): only one public EC2 instance servince web service, not accessible from the internet.
+- five scenarios(AWS): only one public EC2 instance servince web service. Goal is to regain the internet connectivity of web server.
 
-- 2 scenarios(AWS): one EC2 instance serving frontend web, and another servince backend DB. No internal connectivity.
+- four scenarios(AWS): one EC2 instance serving frontend web, and another servince backend DB. Goal is to regain the connectivity between web frontend and db backend.
 
 - x scenarios(GCP): only one public compute instance serving web service, not accessible from the internet.
 
