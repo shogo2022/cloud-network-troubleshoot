@@ -7,10 +7,12 @@ _Created by network engineer for network engineer who endevours cloud deployment
 
 This repository is a collection of trouble scenarios which every network engineer faces during their early time of cloud adoption. You will procure a few resources in (sometimes multiple) cloud environment to emulate each scenario.
 You will be given a guide once you setup the resources, most of the time (if not all) there is a problem in the configuration of the network, and your goal is to change the configuration and make it work.
+In some of scenarios, you need to be familiar with Cisco/Fortigate configuration to troubleshoot. It will be beneficial for you to deploy onpremise to Cloud connection.
 
 このレポジトリにはネットワークエンジニアがクラウドを触り始めた時に陥りがちなトラブルの数々がシナリオとして保存されています。
 このシナリオを使うと、実際のクラウド上にリソースを配置してそれらのトラブルの調査と解決をハンズオンで学ぶことができます。
 いずれのシナリオも最初にガイドが与えられますので、その情報を起点としてネットワークの問題を解決してみてください。
+シナリオの中にはCiscoやFortigateの設定を確認するようなものも含まれているので、オンプレとクラウド環境を繋ぐ際にもきっと役立つはずです。
 
 - **Where to file issues**:
 [https://github.com/shogo2022/cloud-network-troubleshoot/issues](https://github.com/shogo2022/cloud-network-troubleshoot/issues)
@@ -43,7 +45,7 @@ $ cd scenarios/00-tutorial
 
 - five scenarios(AWS): only one public EC2 instance servince web service. Goal is to regain the internet connectivity of web server.
 
-- four scenarios(AWS): one EC2 instance serving frontend web, and another servince backend DB. Goal is to regain the connectivity between web frontend and db backend.
+- five scenarios(AWS): one EC2 instance serving frontend web, and another servince backend DB. Goal is to regain the connectivity between web frontend and db backend.
 
 - x scenarios(GCP): only one public compute instance serving web service, not accessible from the internet.
 
