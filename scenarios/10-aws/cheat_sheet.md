@@ -3,7 +3,7 @@
 ## Walkthrough
 
 Deployed sources and access flow:
-![access flow](./asset/10-guide01.jpg)
+![access flow](./asset/10-guide01.drawio.svg)
 
 1. First, let's check what is deployed.
 ![tag manager](./asset/10-guide02.jpg)
